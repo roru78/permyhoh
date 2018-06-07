@@ -1,0 +1,10 @@
+{
+    "policy_groups": [],
+    "policy_version": 16.04,
+     "read_path": [
+        "/var/lib/apparmor/clicks/",
+        "/opt/**.{apparmor,json}",
+        "/custom/**.{apparmor,json}",
+        "/usr/share/click/preinstalled/**.{apparmor,json}"
+    ] 
+}

@@ -1,0 +1,632 @@
+{
+  "ubuntu": {
+    "1.0": {
+      "accounts": {
+        "description": "Can use Online Accounts. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1230091 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "audio": {
+        "description": "Can play audio (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "calendar": {
+        "description": "Can access the calendar. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227824 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "camera": {
+        "description": "Can access the camera(s)",
+        "usage": "common"
+      },
+      "connectivity": {
+        "description": "Can access coarse network connectivity information",
+        "usage": "common"
+      },
+      "contacts": {
+        "description": "Can access contacts. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227821 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "content_exchange": {
+        "description": "Can request/import data from other applications",
+        "usage": "common"
+      },
+      "content_exchange_source": {
+        "description": "Can provide/export data to other applications",
+        "usage": "common"
+      },
+      "friends": {
+        "description": "Can use Friends social network service. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1231737 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "history": {
+        "description": "Can access the history-service. This policy group is reserved for vetted applications only in this version of the policy. A future version of the policy may move this out of reserved status.",
+        "usage": "reserved"
+      },
+      "keep-display-on": {
+        "description": "Can request keeping the screen on",
+        "usage": "common"
+      },
+      "location": {
+        "description": "Can access Location",
+        "usage": "common"
+      },
+      "microphone": {
+        "description": "Can access the microphone",
+        "usage": "common"
+      },
+      "music_files": {
+        "description": "Can read and write to music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "music_files_read": {
+        "description": "Can read all music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "networking": {
+        "description": "Can access the network",
+        "usage": "common"
+      },
+      "picture_files": {
+        "description": "Can read and write to picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "picture_files_read": {
+        "description": "Can read all picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "sensors": {
+        "description": "Can access the sensors",
+        "usage": "common"
+      },
+      "usermetrics": {
+        "description": "Can use UserMetrics to update the InfoGraphic",
+        "usage": "common"
+      },
+      "video": {
+        "description": "Can play video (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "video_files": {
+        "description": "Can read and write to video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "video_files_read": {
+        "description": "Can read all video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      }
+    },
+    "1.1": {
+      "accounts": {
+        "description": "Can use Online Accounts. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1230091 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "audio": {
+        "description": "Can play audio (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "calendar": {
+        "description": "Can access the calendar. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227824 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "camera": {
+        "description": "Can access the camera(s)",
+        "usage": "common"
+      },
+      "connectivity": {
+        "description": "Can access coarse network connectivity information",
+        "usage": "common"
+      },
+      "contacts": {
+        "description": "Can access contacts. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227821 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "content_exchange": {
+        "description": "Can request/import data from other applications",
+        "usage": "common"
+      },
+      "content_exchange_source": {
+        "description": "Can provide/export data to other applications",
+        "usage": "common"
+      },
+      "debug": {
+        "description": "Use special debugging tools. This should only be used in development and not for production packages. Note: use of this policy group provides significantly different confinement than normal and is not considered secure. You should never run untrusted programs using this policy group.",
+        "usage": "reserved"
+      },
+      "friends": {
+        "description": "Can use Friends social network service. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1231737 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "history": {
+        "description": "Can access the history-service. This policy group is reserved for vetted applications only in this version of the policy. A future version of the policy may move this out of reserved status.",
+        "usage": "reserved"
+      },
+      "keep-display-on": {
+        "description": "Can request keeping the screen on",
+        "usage": "common"
+      },
+      "location": {
+        "description": "Can access Location",
+        "usage": "common"
+      },
+      "microphone": {
+        "description": "Can access the microphone",
+        "usage": "common"
+      },
+      "music_files": {
+        "description": "Can read and write to music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "music_files_read": {
+        "description": "Can read all music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "networking": {
+        "description": "Can access the network",
+        "usage": "common"
+      },
+      "picture_files": {
+        "description": "Can read and write to picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "picture_files_read": {
+        "description": "Can read all picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "sensors": {
+        "description": "Can access the sensors",
+        "usage": "common"
+      },
+      "usermetrics": {
+        "description": "Can use UserMetrics to update the InfoGraphic",
+        "usage": "common"
+      },
+      "video": {
+        "description": "Can play video (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "video_files": {
+        "description": "Can read and write to video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "video_files_read": {
+        "description": "Can read all video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "webview": {
+        "description": "Can use the UbuntuWebview",
+        "usage": "common"
+      }
+    },
+    "1.2": {
+      "accounts": {
+        "description": "Can use Online Accounts.",
+        "usage": "common"
+      },
+      "audio": {
+        "description": "Can play audio (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "calendar": {
+        "description": "Can access the calendar. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227824 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "camera": {
+        "description": "Can access the camera(s)",
+        "usage": "common"
+      },
+      "connectivity": {
+        "description": "Can access coarse network connectivity information",
+        "usage": "common"
+      },
+      "contacts": {
+        "description": "Can access contacts. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227821 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "content_exchange": {
+        "description": "Can request/import data from other applications",
+        "usage": "common"
+      },
+      "content_exchange_source": {
+        "description": "Can provide/export data to other applications",
+        "usage": "common"
+      },
+      "debug": {
+        "description": "Use special debugging tools. This should only be used in development and not for production packages. Note: use of this policy group provides significantly different confinement than normal and is not considered secure. You should never run untrusted programs using this policy group.",
+        "usage": "reserved"
+      },
+      "history": {
+        "description": "Can access the history-service. This policy group is reserved for vetted applications only in this version of the policy. A future version of the policy may move this out of reserved status.",
+        "usage": "reserved"
+      },
+      "keep-display-on": {
+        "description": "Can request keeping the screen on",
+        "usage": "common"
+      },
+      "location": {
+        "description": "Can access Location",
+        "usage": "common"
+      },
+      "microphone": {
+        "description": "Can access the microphone",
+        "usage": "common"
+      },
+      "music_files": {
+        "description": "Can read and write to music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "music_files_read": {
+        "description": "Can read all music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "networking": {
+        "description": "Can access the network",
+        "usage": "common"
+      },
+      "picture_files": {
+        "description": "Can read and write to picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "picture_files_read": {
+        "description": "Can read all picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "push-notification-client": {
+        "description": "Can use push notifications as a client",
+        "usage": "common"
+      },
+      "sensors": {
+        "description": "Can access the sensors",
+        "usage": "common"
+      },
+      "usermetrics": {
+        "description": "Can use UserMetrics to update the InfoGraphic",
+        "usage": "common"
+      },
+      "video": {
+        "description": "Can play video (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "video_files": {
+        "description": "Can read and write to video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "video_files_read": {
+        "description": "Can read all video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "webview": {
+        "description": "Can use the UbuntuWebview",
+        "usage": "common"
+      }
+    },
+    "1.3": {
+      "accounts": {
+        "description": "Can use Online Accounts.",
+        "usage": "common"
+      },
+      "audio": {
+        "description": "Can play audio (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "bluetooth": {
+        "description": "Use bluetooth (bluez5) as an administrator.",
+        "usage": "reserved"
+      },
+      "calendar": {
+        "description": "Can access the calendar. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227824 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "camera": {
+        "description": "Can access the camera(s)",
+        "usage": "common"
+      },
+      "connectivity": {
+        "description": "Can access coarse network connectivity information",
+        "usage": "common"
+      },
+      "contacts": {
+        "description": "Can access contacts. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227821 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "content_exchange": {
+        "description": "Can request/import data from other applications",
+        "usage": "common"
+      },
+      "content_exchange_source": {
+        "description": "Can provide/export data to other applications",
+        "usage": "common"
+      },
+      "debug": {
+        "description": "Use special debugging tools. This should only be used in development and not for production packages. Note: use of this policy group provides significantly different confinement than normal and is not considered secure. You should never run untrusted programs using this policy group.",
+        "usage": "reserved"
+      },
+      "history": {
+        "description": "Can access the history-service. This policy group is reserved for vetted applications only in this version of the policy. A future version of the policy may move this out of reserved status.",
+        "usage": "reserved"
+      },
+      "in-app-purchases": {
+        "description": "Can access pay service",
+        "usage": "common"
+      },
+      "keep-display-on": {
+        "description": "Can request keeping the screen on",
+        "usage": "common"
+      },
+      "location": {
+        "description": "Can access Location",
+        "usage": "common"
+      },
+      "microphone": {
+        "description": "Can access the microphone",
+        "usage": "common"
+      },
+      "music_files": {
+        "description": "Can read and write to music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "music_files_read": {
+        "description": "Can read all music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "networking": {
+        "description": "Can access the network",
+        "usage": "common"
+      },
+      "picture_files": {
+        "description": "Can read and write to picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "picture_files_read": {
+        "description": "Can read all picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "push-notification-client": {
+        "description": "Can use push notifications as a client",
+        "usage": "common"
+      },
+      "sensors": {
+        "description": "Can access the sensors",
+        "usage": "common"
+      },
+      "usermetrics": {
+        "description": "Can use UserMetrics to update the InfoGraphic",
+        "usage": "common"
+      },
+      "video": {
+        "description": "Can play video (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "video_files": {
+        "description": "Can read and write to video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "video_files_read": {
+        "description": "Can read all video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "webview": {
+        "description": "Can use the UbuntuWebview",
+        "usage": "common"
+      }
+    },
+    "15.10": {
+      "accounts": {
+        "description": "Can use Online Accounts.",
+        "usage": "common"
+      },
+      "audio": {
+        "description": "Can play audio (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "bluetooth": {
+        "description": "Use bluetooth (bluez5) as an administrator.",
+        "usage": "reserved"
+      },
+      "calendar": {
+        "description": "Can access the calendar. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227824 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "camera": {
+        "description": "Can access the camera(s)",
+        "usage": "common"
+      },
+      "connectivity": {
+        "description": "Can access coarse network connectivity information",
+        "usage": "common"
+      },
+      "contacts": {
+        "description": "Can access contacts. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227821 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "content_exchange": {
+        "description": "Can request/import data from other applications",
+        "usage": "common"
+      },
+      "content_exchange_source": {
+        "description": "Can provide/export data to other applications",
+        "usage": "common"
+      },
+      "debug": {
+        "description": "Use special debugging tools. This should only be used in development and not for production packages. Note: use of this policy group provides significantly different confinement than normal and is not considered secure. You should never run untrusted programs using this policy group.",
+        "usage": "reserved"
+      },
+      "history": {
+        "description": "Can access the history-service. This policy group is reserved for vetted applications only in this version of the policy. A future version of the policy may move this out of reserved status.",
+        "usage": "reserved"
+      },
+      "in-app-purchases": {
+        "description": "Can access pay service",
+        "usage": "common"
+      },
+      "keep-display-on": {
+        "description": "Can request keeping the screen on",
+        "usage": "common"
+      },
+      "location": {
+        "description": "Can access Location",
+        "usage": "common"
+      },
+      "microphone": {
+        "description": "Can access the microphone",
+        "usage": "common"
+      },
+      "music_files": {
+        "description": "Can read and write to music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "music_files_read": {
+        "description": "Can read all music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "networking": {
+        "description": "Can access the network",
+        "usage": "common"
+      },
+      "picture_files": {
+        "description": "Can read and write to picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "picture_files_read": {
+        "description": "Can read all picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "push-notification-client": {
+        "description": "Can use push notifications as a client",
+        "usage": "common"
+      },
+      "sensors": {
+        "description": "Can access the sensors",
+        "usage": "common"
+      },
+      "usermetrics": {
+        "description": "Can use UserMetrics to update the InfoGraphic",
+        "usage": "common"
+      },
+      "video": {
+        "description": "Can play video (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "video_files": {
+        "description": "Can read and write to video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "video_files_read": {
+        "description": "Can read all video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "webview": {
+        "description": "Can use the UbuntuWebview",
+        "usage": "common"
+      }
+    },
+    "16.04": {
+      "accounts": {
+        "description": "Can use Online Accounts.",
+        "usage": "common"
+      },
+      "audio": {
+        "description": "Can play audio (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "bluetooth": {
+        "description": "Use bluetooth (bluez5) as an administrator.",
+        "usage": "reserved"
+      },
+      "calendar": {
+        "description": "Can access the calendar. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227824 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "camera": {
+        "description": "Can access the camera(s)",
+        "usage": "common"
+      },
+      "connectivity": {
+        "description": "Can access coarse network connectivity information",
+        "usage": "common"
+      },
+      "contacts": {
+        "description": "Can access contacts. This policy group is reserved for vetted applications only in this version of the policy. Once LP: #1227821 is fixed, this can be moved out of reserved status.",
+        "usage": "reserved"
+      },
+      "content_exchange": {
+        "description": "Can request/import data from other applications",
+        "usage": "common"
+      },
+      "content_exchange_source": {
+        "description": "Can provide/export data to other applications",
+        "usage": "common"
+      },
+      "debug": {
+        "description": "Use special debugging tools. This should only be used in development and not for production packages. Note: use of this policy group provides significantly different confinement than normal and is not considered secure. You should never run untrusted programs using this policy group.",
+        "usage": "reserved"
+      },
+      "history": {
+        "description": "Can access the history-service. This policy group is reserved for vetted applications only in this version of the policy. A future version of the policy may move this out of reserved status.",
+        "usage": "reserved"
+      },
+      "in-app-purchases": {
+        "description": "Can access pay service",
+        "usage": "common"
+      },
+      "keep-display-on": {
+        "description": "Can request keeping the screen on",
+        "usage": "common"
+      },
+      "location": {
+        "description": "Can access Location",
+        "usage": "common"
+      },
+      "microphone": {
+        "description": "Can access the microphone",
+        "usage": "common"
+      },
+      "music_files": {
+        "description": "Can read and write to music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "music_files_read": {
+        "description": "Can read all music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead.",
+        "usage": "reserved"
+      },
+      "networking": {
+        "description": "Can access the network",
+        "usage": "common"
+      },
+      "picture_files": {
+        "description": "Can read and write to picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "picture_files_read": {
+        "description": "Can read all picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead.",
+        "usage": "reserved"
+      },
+      "push-notification-client": {
+        "description": "Can use push notifications as a client",
+        "usage": "common"
+      },
+      "sensors": {
+        "description": "Can access the sensors",
+        "usage": "common"
+      },
+      "usermetrics": {
+        "description": "Can use UserMetrics to update the InfoGraphic",
+        "usage": "common"
+      },
+      "video": {
+        "description": "Can play video (allows playing remote content via media-hub)",
+        "usage": "common"
+      },
+      "video_files": {
+        "description": "Can read and write to video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "video_files_read": {
+        "description": "Can read all video files. This policy group is reserved for certain applications, such as video players. Developers should typically use the content_exchange policy group and API to access video files instead.",
+        "usage": "reserved"
+      },
+      "webview": {
+        "description": "Can use the UbuntuWebview",
+        "usage": "common"
+      }
+    }
+  }
+}

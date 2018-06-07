@@ -1,0 +1,15 @@
+{
+    "name": "permyhoh.holger",
+    "description": "prmy clone",
+    "architecture": "@CLICK_ARCH@",
+    "title": "permyhoh",
+    "hooks": {
+        "permyhoh": {
+            "apparmor": "apparmor.json",
+            "desktop":  "permyhoh.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "holger <holger.hoehnemann@kabelbw.de>",
+    "framework" : "ubuntu-sdk-16.04"
+}
