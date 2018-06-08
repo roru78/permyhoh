@@ -45,22 +45,22 @@ Page {
                 }
                 Label {
                     // FIXME: sync this with manifest somehow
-                    text: "0.10"
+                    text: "1.0.0"
                 }
                 Label {
                     font.bold: true;
                     text: i18n.tr("Author: ")
                 }
                 Label {
-                    text: "Jamie Strandboge"
+                    text: "Holger Höhnemann"
                 }
                 Label {
                     font.bold: true;
                     text: i18n.tr("Contributors: ")
                 }
                 Label {
-                    text: "Nekhelesh Ramananthan"
-                }
+                    text: "Jamie Strandboge Nekhelesh Ramananthan"
+               }
                 Label {
                     font.bold: true;
                     text: i18n.tr("Icon: ")
@@ -74,7 +74,7 @@ Page {
                 }
                 Label {
                     id: urlLabel
-                    text: "<a href=\"https://launchpad.net/permy\">https://launchpad.net/permy</a>"
+                    text: "<a href=\"https://github.com/hoh61/permyhoh\">https://github.com/hoh61/permyhoh</a>"
                     onLinkActivated: Qt.openUrlExternally(link)
                 }
                 Label {
@@ -92,7 +92,7 @@ Page {
                 Label {
                     wrapMode: Text.WordWrap
                     width: (about.width * .6 > urlLabel.width) ? about.width * .6 : urlLabel.width
-                    text: "Permy is a permissions viewer for click apps and will show various pieces of information related to security policy including the APP ID, policy vendor, policy version, template, policy groups and more. If any policy groups, abstractions, read paths or write paths are italicized they have been removed from the application's policy."
+                    text: "Permy is a permissions viewer for click apps and will show various pieces of information related to security policy including the APP ID, policy vendor, policy version, template, policy groups and more. If any policy groups, abstractions, read paths or write paths are italicized they have been removed from the application's policy. Permyhoh is a porting of the original permy app to the UBport environment"
                 }
             }
         }
