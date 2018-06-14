@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the permyhoh.holger package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: permyhoh.holger\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-08 21:45+0000\n"
+"PO-Revision-Date: 2018-06-14 08:50+0000\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
+"Language-Team: UBports Spanish Team\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/Main.qml:27
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: ../qml/Main.qml:31 ../qml/ui/AboutPage.qml:8
+msgid "About"
+msgstr "Acerca de"
+
+#: ../qml/Main.qml:77
+msgid "Permissions"
+msgstr "Permisos"
+
+#: ../qml/Main.qml:172
+msgid "Policy Groups"
+msgstr "Grupos de políticas"
+
+#: ../qml/ui/AboutPage.qml:44
+msgid "Version: "
+msgstr "Versión: "
+
+#: ../qml/ui/AboutPage.qml:52
+msgid "Author: "
+msgstr "Autor: "
+
+#: ../qml/ui/AboutPage.qml:59
+msgid "Contributors: "
+msgstr "Colaboradores: "
+
+#: ../qml/ui/AboutPage.qml:66
+msgid "Icon: "
+msgstr "Icono: "
+
+#: ../qml/ui/AboutPage.qml:73
+msgid "Home page: "
+msgstr "Inicio: "
+
+#: ../qml/ui/AboutPage.qml:82
+msgid "Reference: "
+msgstr "Referencia: "
+
+#: ../qml/ui/AboutPage.qml:90
+msgid "Description: "
+msgstr "Descripción: "
+
+#: permyhoh.desktop.in.h:1
+msgid "permyhoh"
+msgstr "permyhoh" 
